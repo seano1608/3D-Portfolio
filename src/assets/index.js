@@ -1,5 +1,4 @@
 import logo from "./logo.svg";
-import sLogo from "./slogo.svg";
 import sNewLogo from "./sNewLogo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -44,7 +43,6 @@ import youtube from "./youtube.png";
 
 export {
   logo,
-  sLogo,
   sNewLogo,
   backend,
   creator,
