@@ -14,17 +14,22 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  go,
+  zaio,
+  tds,
+  busii,
+  medpages,
   carrent,
   jobit,
   tripguide,
   threejs,
   cryptobase,
   hotblog,
+  gallery,
+  expense,
+  amazon,
+  youtube,
+  ryan,
 } from "../assets";
 
 export const navLinks = [
@@ -48,15 +53,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer Hopefully",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "React Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "3D Animations",
     icon: creator,
   },
 ];
@@ -111,62 +116,59 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Golang",
+    icon: go,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Web Developer Intership",
+    company_name: "Zaio",
+    icon: zaio,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "September 2021 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Startup creating web development courses.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality courses.",
+      "Assist in ensuring new courses are accurate and easy to understand.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Operations Assistant",
+    company_name: "TD Strategists",
+    icon: tds,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2022 - January 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Amazon FBA inventory and supply chain management.",
+      "E-Commerce and graphic design.",
+      "SEO and advertsing optimization.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software Developer",
+    company_name: "Busii",
+    icon: busii,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "August 2022 - present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining web application (ASSIST), project for University of Cape Town (UCT), taken on by the World Health Organization (WHO)",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Vue.js and Golang for a data-driven application (ASSIST).",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Software Developer",
+    company_name: "Medpages",
+    icon: medpages,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "March 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Styling website using Bootstrap.",
+      "Developed and maintained web application using Vue.js",
+      "Designing emailers and ensuring cross-browser compatibility through Mailtrak server.",
     ],
   },
 ];
@@ -174,23 +176,23 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful as our product, but Sean proved me wrong.",
+    name: "Ryan Oertle",
+    designation: "CEO",
+    company: "TD Strategists",
+    image: ryan,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I've never met a web developer who truly cares about their clients' success like Sean does.",
+    name: "Tristan Turner",
+    designation: "Manager",
+    company: "Turner Motors",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Sean optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -201,7 +203,7 @@ const testimonials = [
 const projects = [
   {
     id: 1,
-    name: "Car Rent",
+    name: "Gallery",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -210,21 +212,22 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "pixabayAPI",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-    filter: "Frontend",
+    image: gallery,
+    site_link: "https://sean-tailwind-gallery.netlify.app/",
+    source_code_link: "https://github.com/seano1608/tailwind_gallery",
+    filter: "Fullstack",
   },
   {
     id: 2,
-    name: "Job IT",
+    name: "Amazon Clone",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -233,40 +236,38 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "stripeAPI",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: amazon,
+    site_link: "https://clone-e3a8b.web.app/home",
+    source_code_link: "https://github.com/seano1608/amazon_clone",
     filter: "Fullstack",
   },
   {
     id: 3,
-    name: "Trip Guide",
+    name: "Youtube Clone",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "css",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-    filter: "Backend",
+    image: youtube,
+    site_link: "https://youtube-clone-sean.netlify.app/",
+    source_code_link: "https://github.com/seano1608/youtube-clone",
+    filter: "Frontend",
   },
   {
     id: 4,
@@ -275,21 +276,22 @@ const projects = [
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "firebase",
         color: "pink-text-gradient",
       },
     ],
     image: cryptobase,
-    source_code_link: "https://github.com/",
-    filter: "Backend",
+    site_link: "https://cryptobase-75a4e.web.app/",
+    source_code_link: "https://github.com/seano1608/CryptoBase",
+    filter: "Fullstack",
   },
   {
     id: 5,
@@ -306,12 +308,17 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "graphcms",
+        name: "nextjs",
         color: "pink-text-gradient",
+      },
+      {
+        name: "graphcms",
+        color: "blue-text-gradient",
       },
     ],
     image: hotblog,
-    source_code_link: "https://github.com/",
+    site_link: "https://graphcms-blog-qb2akolup-seano1608.vercel.app/",
+    source_code_link: "https://github.com/seano1608/Graphcms_Blog",
     filter: "Fullstack",
   },
 ];

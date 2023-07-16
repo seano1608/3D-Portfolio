@@ -11,7 +11,7 @@ import close from "./close.svg";
 import link from "./link2.png";
 
 import css from "./tech/css.png";
-import docker from "./tech/golang.png";
+import go from "./tech/golang.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -24,16 +24,23 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import zaio from "./company/zaio.svg";
+import tds from "./company/tds.png";
+import busii from "./company/busii.png";
+import medpages from "./company/medpages.png";
+
+import ryan from "./ryan.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import cryptobase from "./cryptobase.png";
 import hotblog from "./hotblog.png";
+import gallery from "./gallery.png";
+import expense from "./expense.png";
+import amazon from "./amazon.png";
+import youtube from "./youtube.png";
+
 
 export {
   logo,
@@ -48,7 +55,7 @@ export {
   close,
   link,
   css,
-  docker,
+  go,
   figma,
   git,
   html,
@@ -60,13 +67,18 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  zaio,
+  tds,
+  busii,
+  medpages,
   carrent,
   jobit,
   tripguide,
   cryptobase,
   hotblog,
+  gallery,
+  expense,
+  amazon,
+  youtube,
+  ryan,
 };
