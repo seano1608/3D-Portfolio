@@ -30,6 +30,7 @@ import {
   amazon,
   youtube,
   ryan,
+  aishirt,
 } from "../assets";
 
 export const navLinks = [
@@ -320,6 +321,34 @@ const projects = [
     site_link: "https://graphcms-blog-qb2akolup-seano1608.vercel.app/",
     source_code_link: "https://github.com/seano1608/Graphcms_Blog",
     filter: "Fullstack",
+  },
+  {
+    id: 6,
+    name: "3D Shirt",
+    description:
+      "Customizable 3D shirt made with Three.js with OpenAI integration",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "openai",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: aishirt,
+    site_link: "https://3d-ai-shirt.com/",
+    source_code_link: "https://github.com/seano1608/3D-Shirt",
+    filter: "Frontend",
   },
 ];
 

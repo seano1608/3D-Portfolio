@@ -39,6 +39,7 @@ import gallery from "./gallery.png";
 import expense from "./expense.png";
 import amazon from "./amazon.png";
 import youtube from "./youtube.png";
+import aishirt from "./aishirt.png";
 
 
 export {
@@ -79,4 +80,5 @@ export {
   amazon,
   youtube,
   ryan,
+  aishirt,
 };
