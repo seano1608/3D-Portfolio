@@ -31,6 +31,7 @@ import {
   youtube,
   ryan,
   aishirt,
+  nexthire,
 } from "../assets";
 
 export const navLinks = [
@@ -193,7 +194,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Sean optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Sean optimized our website, our traffic increased by 50%. We can't thank him enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -204,6 +205,30 @@ const testimonials = [
 const projects = [
   {
     id: 1,
+    name: "NextHire",
+    description:
+        "AI interview platform using Google Gemini and Vapi Voice agents to generate and conduct interviews in the software developer role. Provides feedback and account functionality.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Vapi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nexthire,
+    site_link: "https://next-hire-platform.vercel.app/",
+    source_code_link: "https://github.com/seano1608/nextHire",
+    filter: "Fullstack",
+  },
+  {
+    id: 2,
     name: "Gallery",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
@@ -224,30 +249,6 @@ const projects = [
     image: gallery,
     site_link: "https://sean-tailwind-gallery.netlify.app/",
     source_code_link: "https://github.com/seano1608/tailwind_gallery",
-    filter: "Fullstack",
-  },
-  {
-    id: 2,
-    name: "Amazon Clone",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "stripeAPI",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: amazon,
-    site_link: "https://clone-e3a8b.web.app/home",
-    source_code_link: "https://github.com/seano1608/amazon_clone",
     filter: "Fullstack",
   },
   {

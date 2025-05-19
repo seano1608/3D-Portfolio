@@ -40,7 +40,7 @@ import expense from "./expense.png";
 import amazon from "./amazon.png";
 import youtube from "./youtube.png";
 import aishirt from "./aishirt.png";
-
+import nexthire from "./nexthire.png";
 
 export {
   logo,
@@ -81,4 +81,5 @@ export {
   youtube,
   ryan,
   aishirt,
+  nexthire
 };
