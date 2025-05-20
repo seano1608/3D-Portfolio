@@ -32,6 +32,8 @@ import {
   ryan,
   aishirt,
   nexthire,
+  routigo,
+  autonl
 } from "../assets";
 
 export const navLinks = [
@@ -166,13 +168,37 @@ const experiences = [
     company_name: "Medpages",
     icon: medpages,
     iconBg: "#E6DEDD",
-    date: "March 2023 - Present",
+    date: "March 2023 - June 2024",
     points: [
       "Styling website using Bootstrap.",
       "Developed and maintained web application using Vue.js",
       "Designing emailers and ensuring cross-browser compatibility through Mailtrak server.",
     ],
   },
+  {
+    title: "Frontend Developer",
+    company_name: "Routigo",
+    icon: routigo,
+    iconBg: "#E6DEDD",
+    date: "November 2023 - August 2024",
+    points: [
+      "Developing front-end features using Angular.js, TypeScript, and Next.js",
+      "Implementing dashboard features for delivery companies’ track and trace",
+      "Generating map routes using Leaflet"
+    ]
+  },
+  {
+    title: "Frontend Developer",
+    company_name: "Auto.nl",
+    icon: autonl,
+    iconBg: "#E6DEDD",
+    date: "September 2024 - present",
+    points: [
+      "Frontend (React, TypeScript, SCSS) for auto.nl car sales website",
+      "Developing new features and reusuable components for the shop and site",
+      "Deploying with Azure pipelines"
+    ]
+  }
 ];
 
 const testimonials = [

@@ -41,6 +41,8 @@ import amazon from "./amazon.png";
 import youtube from "./youtube.png";
 import aishirt from "./aishirt.png";
 import nexthire from "./nexthire.png";
+import routigo from "./routigo.png";
+import autonl from "./autonl.png";
 
 export {
   logo,
@@ -81,5 +83,7 @@ export {
   youtube,
   ryan,
   aishirt,
-  nexthire
+  nexthire,
+  routigo,
+  autonl,
 };
